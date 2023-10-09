@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -91,16 +92,16 @@ fun mainScreen() {
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp),
-        verticalArrangement = Arrangement.SpaceBetween,
+        verticalArrangement = Arrangement.spacedBy(10.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
             painter = painterResource(id = imageResources[currentIndex].imageResource),
             contentDescription = null,
-            contentScale = ContentScale.FillBounds,
+            contentScale = ContentScale.Fit,
             modifier = Modifier
                 .fillMaxWidth()
-                .fillMaxHeight(0.6f)
+                .fillMaxHeight(0.5f)
         )
         Text(
             text = imageResources[currentIndex].title,
@@ -133,10 +134,13 @@ fun mainScreen() {
                     }
                 },
                 modifier = Modifier
-                    .padding(16.dp)
+                    .weight(1f)
                     .fillMaxWidth()
             ) {
-                Text(text = stringResource(R.string.btn1))
+                Text(
+                    text = stringResource(R.string.btn1),
+                    fontSize = 20.sp
+                )
             }
         }
         Row(
@@ -152,10 +156,13 @@ fun mainScreen() {
                     }
                 },
                 modifier = Modifier
-                    .padding(16.dp)
+                    .weight(1f)
                     .fillMaxWidth()
             ) {
-                Text(text = stringResource(R.string.btn2))
+                Text(
+                    text = stringResource(R.string.btn2),
+                    fontSize = 20.sp
+                )
             }
         }
     }
