@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Art Space</string>
+    <string name="btn1">Anterior</string>
+    <string name="btn2">Siguiente</string>
+
+    <!-- El jardín de las delicias -->
+    <string name="title_jardindelicias">El jardín de las delicias</string>
+    <string name="artist_jardindelicias">El Bosco</string>
+    <string name="year_jardindelicias">1490-1510</string>
+
+    <!-- La balsa de la Medusa -->
+    <string name="title_balsamedusa">La balsa de la Medusa</string>
+    <string name="artist_balsamedusa">Théodore Géricault</string>
+    <string name="year_balsamedusa">1818-1819</string>
+
+    <!-- El entierro en Ornans -->
+    <string name="title_entierroornans">El entierro en Ornans</string>
+    <string name="artist_entierroornans">Gustave Courbet</string>
+    <string name="year_entierroornans">1849-1850</string>
+
+    <!-- La noche estrellada -->
+    <string name="title_nocheestrellada">La noche estrellada</string>
+    <string name="artist_nocheestrellada">Vincent van Gogh</string>
+    <string name="year_nocheestrellada">1889</string>
+
+    <!-- Los jugadores de cartas -->
+    <string name="title_jugadorescartas">Los jugadores de cartas</string>
+    <string name="artist_jugadorescartas">Paul Cézanne</string>
+    <string name="year_jugadorescartas">1890-1895</string>
+
+    <!-- Nighthawks -->
+    <string name="title_nighthawks">Nighthawks</string>
+    <string name="artist_nighthawks">Edward Hopper</string>
+    <string name="year_nighthawks">1942</string>
+
 </resources>
